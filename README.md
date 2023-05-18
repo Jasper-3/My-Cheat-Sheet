@@ -35,3 +35,5 @@ Want to see which famous artwork is available? You can sign up right here.
 
 
 *“Net returns” refers to the annualized internal rate of return net of all fees and costs, calculated from the offering closing date to the date the sale is consummated. IRR may not be indicative of Masterworks paintings not yet sold and past performance is not indicative of future results. See important Reg A disclosures: Masterworks.com/cd
+
+https://www.nelsonpires.com/development/protect-your-email-and-phone-number-from-spam-bots
