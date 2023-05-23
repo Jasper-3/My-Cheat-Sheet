@@ -70,7 +70,7 @@ exit;
 ## Show Databases
 
 ```sql
-SHOW DATABASES
+SHOW DATABASES;
 ```
 
 ## Create Database
