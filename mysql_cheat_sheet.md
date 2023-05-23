@@ -42,6 +42,12 @@ CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 GRANT ALL PRIVILEGES ON * . * TO 'someuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
+In case of FLUSH PRIVILEGES resulted in error do the following
+1.Select "mysql" database from the list of database.
+2.Select all tables inside "mysql" database.
+3.Scroll down and select "Repair Table" option in combobox.
+4.Click on Go button.
+https://stackoverflow.com/questions/60864367/1030-got-error-176-read-page-with-wrong-checksum-from-storage-engine-aria
 
 ## Show Grants
 
