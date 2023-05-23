@@ -12,9 +12,9 @@
 _This text_ is italic
 
 <!-- Strong -->
-**This text** is italic
+**This text** is Strong
 
-__This text__ is italic
+__This text__ is Strong
 
 <!-- Strikethrough -->
 ~~This text~~ is strikethrough
@@ -51,6 +51,9 @@ ___
 
 <!-- Images -->
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+<!-- Escape characters  -->
+\*This text\* is italic
 
 <!-- Github Markdown -->
 
