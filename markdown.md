@@ -52,7 +52,7 @@ ___
 <!-- Images -->
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
-<!-- Escape characters  -->
+<!-- Escape Special characters  -->
 \*This text\* is italic
 
 <!-- Github Markdown -->
