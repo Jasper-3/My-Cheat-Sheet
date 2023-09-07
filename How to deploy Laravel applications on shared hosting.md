@@ -7,7 +7,7 @@ The simple guide to deploy Laravel and Lumen application on shared hosting.
 
 Before trying to deploy a Laravel application on a shared hosting, you need to make sure that the hosting services provide a fit [requirement to Laravel](https://laravel.com/docs/5.2#server-requirements). Basically, following items are required for Laravel 8.x:
 
-* PHP >= 7.4
+* PHP >= 8.1
 * PDO PHP Extension
 * Mbstring PHP Extension
 
@@ -26,20 +26,22 @@ To set up access to private repositories, perform the following steps:
 ### Generate an SSH key
 If you have not already configured one, run the following command to generate an SSH key:
 
-```ssh-keygen -t rsa -b 4096 -C "username@example.foo"```
+```ssh-keygen -t ed25519 -C "your_email@example.com"```
 
 In this example, `username` represents the cPanel account username and `example.foo` represents your domain name.
 
 After you run this command, the system will prompt you to enter a passphrase. Do not enter a passphrase, and press Enter to continue.
 
+[GitHub SSH Requirements](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ### Confirm that you generated the SSH key correctly
 To confirm that the key exists and is in the correct location, run the following command:
 
-```cat ~/.ssh/id_rsa.pub```
+```cat ~/.ssh/id_ed25519.pub```
 
 The output should resemble the following example, where AAAAB3Nza... represents a valid SSH key:
 
-```ssh-rsa AAAAB3Nza...```
+```ssh-ed25519 AAAAC3Nza...```
 
 ### Register your SSH key with the private repository host
 Note:
@@ -111,7 +113,7 @@ $ cd repositories
 Alright, from here, just issue a git command to grab the code,
 
 ```bash
-$ git clone http://[GIT_SERVER]/awesome-app.git
+$ git clone git@github.com:[GIT_SERVER].git
 $ cd awesome-app
 ```
 
@@ -235,11 +237,11 @@ AddHandler application/x-httpd-php74 .php
 
 If you found any hosting providers that works, please tell me, I will update the list for others to know about them, too.
 
-## Still trouble?
+<!---## Still trouble?--->
 
-If you still fail to deploy Laravel applications after following all above steps. Provide me [your issue](https://github.com/michaelgatuma/laravel-deploy-on-shared-hosting/issues) in details, I will help you out.
+<!---If you still fail to deploy Laravel applications after following all above steps. Provide me [your issue](https://github.com/michaelgatuma/laravel-deploy-on-shared-hosting/issues) in details, I will help you out.--->
 
-## Contribution Guide
+<!---## Contribution Guide--->
 
-Free free to fork the project and submit [a pull request](https://github.com/michaelgatuma/laravel-deploy-on-shared-hosting/pulls).
+<!---Free free to fork the project and submit [a pull request](https://github.com/michaelgatuma/laravel-deploy-on-shared-hosting/pulls).--->
 
