@@ -39,3 +39,5 @@ Want to see which famous artwork is available? You can sign up right here.
 https://www.nelsonpires.com/development/protect-your-email-and-phone-number-from-spam-bots
 
 I think shared hosting is a good place to start deploying your Laravel application but definitely is not the best. It is better to have your application in a cloud hosting provider such as Digital Ocean, Vultr, Cloudways, or Contabo if you are on a tight budget and scale from there.
+
+https://astro.build/ Framework
