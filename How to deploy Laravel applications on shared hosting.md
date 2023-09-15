@@ -155,7 +155,7 @@ $app = require_once __DIR__.'/../repositories/awesome-app/bootstrap/app.php';
 The hard part is done, the rest is to do some basic Laravel setup. Allow write permission to `storage` directory is important,
 
 ```bash
-$ chmod -R o+w storage
+$ chmod -R o+w storage/ bootstrap/
 ```
 
 **Edit your `.env` for proper configuration. Don't miss this!**
