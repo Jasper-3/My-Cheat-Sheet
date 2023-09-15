@@ -43,3 +43,4 @@ I think shared hosting is a good place to start deploying your Laravel applicati
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
+https://www.scalablepath.com/front-end/single-page-applications
