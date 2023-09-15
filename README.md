@@ -44,3 +44,4 @@ https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
 https://www.scalablepath.com/front-end/single-page-applications
+https://www.youtube.com/watch?v=dpJDV25tptw
