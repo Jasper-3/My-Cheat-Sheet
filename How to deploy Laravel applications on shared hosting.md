@@ -134,7 +134,7 @@ $ cp -a public_bak/* public/
 $ cp public_bak/.htaccess public/
 ```
 
-Because we created the symbol link from `www` directory to make it become the *virtual* `public` in project, so we have to update the `~/www/index.php` in order to replace paths with the new ones:
+Because we created the symbol link from `www` directory to make it become the *virtual* `public` in project, so we have to update the `~/www/index.php` (set index.php permission as 644) in order to replace paths with the new ones:
 
 ```diff
 - require __DIR__.’/../bootstrap/autoload.php’;
