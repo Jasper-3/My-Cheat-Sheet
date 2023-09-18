@@ -47,3 +47,7 @@ https://www.scalablepath.com/front-end/single-page-applications
 https://www.youtube.com/watch?v=dpJDV25tptw
 https://www.freecodecamp.org/news/how-to-build-a-full-stack-single-page-application-with-laravel-mysql-vue-and-docker/
 https://www.youtube.com/watch?v=iO1mwxPNP5A
+https://www.kamatera.com/tcampaign=35400_439091&bta=35400&nci=5717&utm_campaign=GoogieHost&_gl=1%2Ayff7xc%2A_ga%2AMTEzNTE3NjExNS4xNjk0ODE5OTky%2A_ga_1RE220KFG0%2AMTY5NTA1MDA2Ni4yLjAuMTY5NTA1MDk3Ni41Ni4wLjA.
+https://googiehost.com/
+https://www.interserver.net/vps/
+https://www.youstable.com/
