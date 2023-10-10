@@ -56,6 +56,9 @@ Image/Storing mysql
 Laravel Deployment Hostinger
 * https://www.youtube.com/watch?v=0VstgA1OU1Y
 
+Alpine.js
+* https://alpinejs.dev/
+
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
