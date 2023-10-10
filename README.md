@@ -51,6 +51,10 @@ Laravel Starter
 
 Image/Storing mysql
 * https://stackoverflow.com/questions/6472233/can-i-store-images-in-mysql
+* https://laracasts.com/discuss/channels/laravel/display-oracle-blob-image
+
+Laravel Deployment Hostinger
+* https://www.youtube.com/watch?v=0VstgA1OU1Y
 
 https://astro.build/ Framework
 https://techstacks.io/
