@@ -1,15 +1,26 @@
 # How to deploy Laravel applications on shared hosting
 [![API Documentation](http://img.shields.io/badge/en-English-brightgreen.svg)](README.md)
 
-The simple guide to deploy Laravel and Lumen application on shared hosting.
+The simple guide to deploy Laravel and application on shared hosting.
 
 ## Requirements
 
-Before trying to deploy a Laravel application on a shared hosting, you need to make sure that the hosting services provide a fit [requirement to Laravel](https://laravel.com/docs/5.2#server-requirements). Basically, following items are required for Laravel 8.x:
+Before trying to deploy a Laravel application on a shared hosting, you need to make sure that the hosting services provide a fit [requirement to Laravel](https://laravel.com/docs/10.x). Basically, following items are required for Laravel 8.x:
 
 * PHP >= 8.1
-* PDO PHP Extension
+* Ctype PHP Extension
+* cURL PHP Extension
+* DOM PHP Extension
+* Fileinfo PHP Extension
+* Filter PHP Extension
+* Hash PHP Extension
 * Mbstring PHP Extension
+* OpenSSL PHP Extension
+* PCRE PHP Extension
+* PDO PHP Extension
+* Session PHP Extension
+* Tokenizer PHP Extension
+* XML PHP Extension
 
 Well, it also depends on the Laravel version you want to try to install, checkout the appropriate version of [Laravel server requirements documentation](https://laravel.com/docs/master).
 
@@ -124,7 +135,7 @@ $ cd awesome-app
 - The rest of the fields should now be autofilled for you automatically. You can change the naming as you desire.
 - Now click *Create* and the wizard will start cloning your repository if SSH Setup was done correctly.
 
-## Configure
+## Configure as Main Domain
 Next step is to make the `awesome-app/public` directory to map with `www` directory, symbol link is a great help for this, but we need to backup `public` directory first.
 
 ```bash
@@ -167,6 +178,7 @@ $ php composer install
 $ php composer dumpautoload -o
 $ php artisan config:cache
 $ php artisan route:cache
+$ php artisan view:cache
 ```
 
 **Congratulation! You've successfully set up a Laravel application on a shared hosting service.**
@@ -217,31 +229,42 @@ You can copy the default PHP configuration file `php.ini`, which is often at `/u
 $ php -i | grep "php.ini"
 ```
 
-## List of service providers tested and worked
+## Multiple SSH
+***GitHub***
 
-The following shared hosting service providers have been tested and worked perfectly 100%.
+Using multiple repositories on one server
 
-* [NameCheap](https://www.namecheap.com/)
-* [JustHost](https://www.justhost.com/)
-* [bluehost](https://www.bluehost.com/)
-* [GoDaddy](https://godaddy.com/)
-* [HostGator](http://www.hostgator.com/)
-* [GeekStorage](https://www.geekstorage.com/)
-* [Site5](https://www.site5.com/)
+If you use multiple repositories on one server, you will need to generate a dedicated key pair for each one. You can't reuse a deploy key for multiple repositories.
 
-Works on [GeekStorage](https://www.geekstorage.com/) shared plan but I had to enable PHP 7.4 via `.htaccess`
+In the server's SSH configuration file (usually ~/.ssh/config), add an alias entry for each repository. For example:
 
 ```
-AddHandler application/x-httpd-php74 .php
+Host github.com-repo-0
+        Hostname github.com
+        IdentityFile=/home/user/.ssh/repo-0_deploy_key
+
+Host github.com-repo-1
+        Hostname github.com
+        IdentityFile=/home/user/.ssh/repo-1_deploy_key
+```
+* `Host github.com-repo-0` - The repository's alias.
+* `Hostname github.com` - Configures the hostname to use with the alias.
+* `IdentityFile=/home/user/.ssh/repo-0_deploy_key` - Assigns a private key to the alias.
+You can then use the hostname's alias to interact with the repository using SSH, which will use the unique deploy key assigned to that alias. For example:
+
+```
+git clone git@github.com-repo-1:OWNER/repo-1.git
 ```
 
-If you found any hosting providers that works, please tell me, I will update the list for others to know about them, too.
+***cpanel/Shared hosting***
 
-<!---## Still trouble?--->
+This exact error is usually caused by the ~/.ssh/config file. So you should definitely revisit the configuration in that file.
 
-<!---If you still fail to deploy Laravel applications after following all above steps. Provide me [your issue](https://github.com/michaelgatuma/laravel-deploy-on-shared-hosting/issues) in details, I will help you out.--->
+You should change the texts to this
+```
+Host github.com
+    IdentityFile ~/.ssh/{private_ssh_key_name_1}
 
-<!---## Contribution Guide--->
-
-<!---Free free to fork the project and submit [a pull request](https://github.com/michaelgatuma/laravel-deploy-on-shared-hosting/pulls).--->
-
+Host github.com
+    IdentityFile ~/.ssh/{private_ssh_key_name_2}
+```
