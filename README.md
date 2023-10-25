@@ -60,8 +60,8 @@ Alpine.js
 * https://alpinejs.dev/
 
 Laravel/Packges
-*https://www.cloudways.com/blog/best-laravel-packages/
-*https://www.cloudways.com/blog/integrate-laravel-cms/
+* https://www.cloudways.com/blog/best-laravel-packages/
+* https://www.cloudways.com/blog/integrate-laravel-cms/
 
 https://astro.build/ Framework
 https://techstacks.io/
