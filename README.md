@@ -66,6 +66,9 @@ Laravel/Packges
 Interesting Websites
 * https://tailwindcomponents.com/
 
+SVG Minifier
+* https://jakearchibald.github.io/svgomg/
+
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
