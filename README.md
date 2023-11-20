@@ -63,6 +63,9 @@ Laravel/Packges
 * https://www.cloudways.com/blog/best-laravel-packages/
 * https://www.cloudways.com/blog/integrate-laravel-cms/
 
+Interesting Websites
+* https://tailwindcomponents.com/
+
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
