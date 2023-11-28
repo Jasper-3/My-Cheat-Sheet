@@ -69,6 +69,9 @@ Interesting Websites
 SVG Minifier
 * https://jakearchibald.github.io/svgomg/
 
+Design 
+* https://material-minimal.com/learn/foundations/introduction/
+
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
