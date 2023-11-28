@@ -72,6 +72,9 @@ SVG Minifier
 Design 
 * https://material-minimal.com/learn/foundations/introduction/
 
+Meta Tag/Open Graph
+* https://www.conductor.com/academy/what-are-meta-tags/
+
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
