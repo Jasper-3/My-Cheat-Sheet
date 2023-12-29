@@ -78,6 +78,11 @@ Meta Tag/Open Graph
 Google Cloud App Engine
 * https://cloud.google.com/appengine/?utm_source=google&utm_medium=cpc&utm_campaign=japac-PH-all-en-dr-SKWS-all-super-trial-PHR-dr-1605216&utm_content=text-ad-none-none-DEV_c-CRE_650535618651-ADGP_Hybrid+%7C+SKWS+-+BRO+%7C+Txt+~+Compute_App+Engine_app+engine_main-KWID_43700075888743144-kwd-440549301&userloc_9067371-network_g&utm_term=KW_app+engine&gad_source=1&gclid=Cj0KCQiA6vaqBhCbARIsACF9M6m6UieZoPK4o6hKlbk-z__zeYFTVq32wEQwhuNN-gDFyFkJJ_sOceoaArVaEALw_wcB&gclsrc=aw.ds&hl=en
 
+VPS
+* https://www.scalahosting.com/blog/tips-for-smarter-server-maintenance/\
+* https://www.scalahosting.com/blog/how-hard-is-it-to-manage-a-vps/#
+
+* 
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
