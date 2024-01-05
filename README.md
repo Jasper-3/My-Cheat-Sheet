@@ -43,17 +43,11 @@ I think shared hosting is a good place to start deploying your Laravel applicati
 Laravel Packeges/Jobs
 * https://packalyst.com/
 
-Blog with firebase
-* https://www.youtube.com/watch?v=EK_emZ1_DGo
-
 * https://hackr.io/blog/top-javascript-libraries
 
 Image/Storing mysql
 * https://stackoverflow.com/questions/6472233/can-i-store-images-in-mysql
 * https://laracasts.com/discuss/channels/laravel/display-oracle-blob-image
-
-Laravel Deployment Hostinger
-* https://www.youtube.com/watch?v=0VstgA1OU1Y
 
 Alpine.js
 * https://alpinejs.dev/
@@ -87,9 +81,9 @@ https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
 https://www.scalablepath.com/front-end/single-page-applications
-https://www.youtube.com/watch?v=dpJDV25tptw
+
 https://www.freecodecamp.org/news/how-to-build-a-full-stack-single-page-application-with-laravel-mysql-vue-and-docker/
-https://www.youtube.com/watch?v=iO1mwxPNP5A
+
 https://www.kamatera.com/tcampaign=35400_439091&bta=35400&nci=5717&utm_campaign=GoogieHost&_gl=1%2Ayff7xc%2A_ga%2AMTEzNTE3NjExNS4xNjk0ODE5OTky%2A_ga_1RE220KFG0%2AMTY5NTA1MDA2Ni4yLjAuMTY5NTA1MDk3Ni41Ni4wLjA.
 https://googiehost.com/
 https://www.interserver.net/vps/
