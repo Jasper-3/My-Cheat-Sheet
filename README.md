@@ -82,6 +82,9 @@ VPS
 * https://www.scalahosting.com/blog/tips-for-smarter-server-maintenance/\
 * https://www.scalahosting.com/blog/how-hard-is-it-to-manage-a-vps/#
 
+STRIPE
+* https://www.youtube.com/watch?v=1r-F3FIONl8
+
 * 
 https://astro.build/ Framework
 https://techstacks.io/
