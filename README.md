@@ -46,8 +46,7 @@ Laravel Packeges/Jobs
 Blog with firebase
 * https://www.youtube.com/watch?v=EK_emZ1_DGo
 
-Laravel Starter
-* https://www.youtube.com/watch?v=AGE3wRKljkw
+* https://hackr.io/blog/top-javascript-libraries
 
 Image/Storing mysql
 * https://stackoverflow.com/questions/6472233/can-i-store-images-in-mysql
@@ -82,8 +81,6 @@ VPS
 * https://www.scalahosting.com/blog/tips-for-smarter-server-maintenance/\
 * https://www.scalahosting.com/blog/how-hard-is-it-to-manage-a-vps/#
 
-STRIPE
-* https://www.youtube.com/watch?v=1r-F3FIONl8
 
 * 
 https://astro.build/ Framework
