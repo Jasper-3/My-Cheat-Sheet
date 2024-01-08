@@ -42,6 +42,7 @@ I think shared hosting is a good place to start deploying your Laravel applicati
 
 Laravel Packeges/Jobs
 * https://packalyst.com/
+* https://larajobs.com/
 
 * https://hackr.io/blog/top-javascript-libraries
 
