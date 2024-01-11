@@ -77,7 +77,7 @@ VPS
 * https://www.scalahosting.com/blog/how-hard-is-it-to-manage-a-vps/#
 
 
-* 
+* https://headlessui.com/
 https://astro.build/ Framework
 https://techstacks.io/
 https://stackshare.io/
