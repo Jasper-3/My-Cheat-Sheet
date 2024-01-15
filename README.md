@@ -33,12 +33,14 @@ They’ve handed members +21%, +27%, and +32% net returns from some of their pas
 
 Want to see which famous artwork is available? You can sign up right here.
 
-
 *“Net returns” refers to the annualized internal rate of return net of all fees and costs, calculated from the offering closing date to the date the sale is consummated. IRR may not be indicative of Masterworks paintings not yet sold and past performance is not indicative of future results. See important Reg A disclosures: Masterworks.com/cd
 
 https://www.nelsonpires.com/development/protect-your-email-and-phone-number-from-spam-bots
 
 I think shared hosting is a good place to start deploying your Laravel application but definitely is not the best. It is better to have your application in a cloud hosting provider such as Digital Ocean, Vultr, Cloudways, or Contabo if you are on a tight budget and scale from there.
+
+OpenSource E-Commerce
+* https://www.opencart.com/
 
 Laravel Packeges/Jobs
 * https://packalyst.com/
