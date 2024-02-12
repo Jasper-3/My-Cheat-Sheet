@@ -78,6 +78,8 @@ VPS
 * https://www.scalahosting.com/blog/tips-for-smarter-server-maintenance/\
 * https://www.scalahosting.com/blog/how-hard-is-it-to-manage-a-vps/#
 
+Node.js Shared hosting
+* https://stackoverflow.com/questions/57602008/error-while-installing-nodejs-on-godaddy-shared-linux-hosting
 
 * https://headlessui.com/
 https://astro.build/ Framework
