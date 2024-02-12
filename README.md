@@ -81,6 +81,9 @@ VPS
 Node.js Shared hosting
 * https://stackoverflow.com/questions/57602008/error-while-installing-nodejs-on-godaddy-shared-linux-hosting
 
+Mail services
+* https://www.cognitoforms.com/
+
 * https://headlessui.com/
 https://astro.build/ Framework
 https://techstacks.io/
