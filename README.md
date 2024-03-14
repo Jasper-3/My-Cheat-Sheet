@@ -1,3 +1,5 @@
+https://www.reddit.com/r/PHbuildapc/comments/1bcmo4c/where_to_buy_pc_parts_in_the_philippines_guide/
+
 # test
 Dev Tool https://developer.chrome.com/docs/devtools/overview/
 https://www.masterworks.com/?utm_source=quora&utm_medium=platform&utm_campaign=na_zipcodes-women_us_all_broad_na_male&utm_content=alternatives_299_text_best-investment-2023_v1_hp_na_mw-larry
