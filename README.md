@@ -104,5 +104,5 @@ https://www.youstable.com/
 https://www.netsolutions.com/insights/what-is-a-framework-in-programming/
 
 
-
+https://retool.com/blog/best-laravel-admin-panels
 https://w3techs.com/technologies
