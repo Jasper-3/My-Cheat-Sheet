@@ -103,6 +103,6 @@ https://www.interserver.net/vps/
 https://www.youstable.com/
 https://www.netsolutions.com/insights/what-is-a-framework-in-programming/
 
-
+https://medium.com/@yaghi.moh/fortifying-your-laravel-application-best-practices-for-securing-your-web-application-b6d4242d0bb8
 https://retool.com/blog/best-laravel-admin-panels
 https://w3techs.com/technologies
